@@ -5,12 +5,12 @@ import API from "../api/axios";
 import FavouriteItem from "../components/FavouriteItem";
 
 const ITEMS = [
-  { id: "momo", name: "Momo (Dumplings)", price: 250 },
-  { id: "dal-bhat", name: "Dal Bhat Set", price: 350 },
-  { id: "chowmein", name: "Chowmein", price: 200 },
-  { id: "sel-roti", name: "Sel Roti", price: 80 },
-  { id: "thukpa", name: "Thukpa (Noodle Soup)", price: 280 },
-  { id: "chatamari", name: "Chatamari", price: 300 },
+  { id: "res-home", name: "Residential Villa", price: "2.5 cr" },
+  { id: "comm-space", name: "Commercial Office Space", price: "1.2 cr" },
+  { id: "apt-unit", name: "3BHK Apartment", price: "95 L" },
+  { id: "raw-land", name: "Development Land (per aana)", price: "45 L" },
+  { id: "ind-wh", name: "Industrial Warehouse", price: "4 cr" },
+  { id: "retail-shop", name: "Retail Storefront", price: "60 L" },
 ];
 
 function DashboardPage() {
